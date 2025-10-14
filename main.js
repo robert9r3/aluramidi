@@ -27,4 +27,8 @@ for (let contador = 0; contador < listadeTeclas.length; contador++){
     }
 }
 
+tecla.onkeyup = function(){
+    tecla.classList.remove('ativa');
+}
+
 listadeTeclas[0].onclick = tocaSomPom;
